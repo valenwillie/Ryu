@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM --platform=linux/arm64 python:alpine
 
 RUN apk add alpine-sdk libxml2-dev libxslt-dev libffi-dev openssl-dev git
 
